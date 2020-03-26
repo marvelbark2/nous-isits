@@ -19,8 +19,6 @@ class CreatePrepasTable extends Migration
             $table->longText('description');
             $table->string('className');
             $table->string('icon');
-            $table->date('start_at');
-            $table->date('end_at');
             $table->timestamps();
         });
     }
