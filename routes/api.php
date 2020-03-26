@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::post('/matiere/{id}', 'matierecontroller@ma');
+Route::post('/matiere/{id}', 'MatiereController@ma');
 Route::get('/notes', 'noteController@all');
 Route::post('/notes', 'noteController@ap');
 Route::get('/enote', 'noteController@enote');
